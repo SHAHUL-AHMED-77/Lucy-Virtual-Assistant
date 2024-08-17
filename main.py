@@ -9,7 +9,7 @@ import music
 
 r = sr.Recognizer()
 engine = pyttsx3.init()
-news_api = "8dfafcfc00df410688efe705f148a764"
+news_api = "<Write Your Api News Key Here>"
 
 def speak(word):
     engine.say(word)
@@ -17,6 +17,7 @@ def speak(word):
 
 
 #Using for Generating funfacts
+
 fun_facts = [
     "Honey never spoils.",
     "A group of flamingos is called a 'flamboyance'.",
@@ -53,6 +54,7 @@ def motivational_quote():
     speak(f"Here's a motivational quote: {quote}")
 
 #Using For generating Anime Recommendedations
+
 anime_recommendations = [
     "Naruto",
     "One Piece",
@@ -128,8 +130,10 @@ def processcommand(c):
     elif "weather" in c.lower():
         try:
             city = c.lower().split("in")[1].strip() 
+
             # Use your actual API key
-            api_key = "0e4abf016a524f12a79182237241508"  
+
+            api_key = "<Write Your Api Weather Key Here>"  
             base_url = f"http://api.weatherapi.com/v1/current.json?key={api_key}&q={city}&aqi=no"
             response = requests.get(base_url)
             if response.status_code == 200:
