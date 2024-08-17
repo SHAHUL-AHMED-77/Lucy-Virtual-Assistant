@@ -35,7 +35,7 @@ pip install SpeechRecognition pyttsx3 requests pyjokes
 Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/lucy-virtual-assistant.git
+git clone (https://github.com/SHAHUL-AHMED-77/Lucy-Virtual-Assistant.git)
 cd lucy-virtual-assistant
 ```
 
