@@ -6,7 +6,7 @@
 ![Requests](https://img.shields.io/badge/Requests-v2.28.1-green.svg)
 ![No License](https://img.shields.io/badge/license-No_License-red.svg)
 
-Lucy is a voice-activated virtual assistant designed to perform a variety of tasks like fetching the latest news, telling jokes, giving weather updates, and more. This project leverages Python and several libraries to create an interactive, speech-based assistant.
+Lucy is a voice-activated virtual assistant designed to perform a variety of tasks like fetching the latest news, telling jokes, giving weather updates, and more. This project leverages [Python](https://www.python.org/) and several libraries to create an interactive, speech-based assistant.
 
 ## Features
 
@@ -21,7 +21,7 @@ Lucy is a voice-activated virtual assistant designed to perform a variety of tas
 ## Installation
 
 ### Prerequisites
-- Python 3.8+
+- [Python 3.8+](https://www.python.org/downloads/)
 - Internet connection (for fetching news, weather, and other data)
 
 ### Libraries Required
@@ -83,15 +83,8 @@ Listening...
 Lucy Activated...
 Processing command
 --------------------------------
-The current time is 14:35:20.
-
-Listening...
-Lucy Activated...
-Processing command
---------------------------------
-Getting latest news...
-News headline: "New technological breakthrough announced..."
-News headline: "Global markets see unprecedented shifts..."
+Playing music...
+Now playing: skyfall
 ```
 
 ## Customization
